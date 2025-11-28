@@ -230,6 +230,8 @@ public class SearchApplication {
 }
 ```
 ## 3. How to RunStart Elasticsearch: Ensure Elasticsearch is running locally on port 9200.
+
+```
 Build: mvn clean installRun: mvn spring-boot:run## 4. API UsageEndpoint: POST /searchRequest Body:{
     "interest": "Aircraft Spotting",
     "minSalary": 70000
